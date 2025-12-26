@@ -3,6 +3,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 115 字幕助手脚本（油猴 / Tampermonkey）。主要提供：画质/色彩增强、进度条预览缩略图、在线字幕（sub-dog）等能力。
+![preview](https://github.com/lilymark6868-stack/115SubtitleAssistant/blob/main/preview.png?raw=true)
 
 ## 功能说明
 
