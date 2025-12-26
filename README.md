@@ -1,6 +1,7 @@
 # 115CloudDriveSubtitleTools
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-v5.3.3%2B-blue?logo=tampermonkey&logoColor=white)](https://www.tampermonkey.net/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 115CloudDriveSubtitleTools一个115网盘的Tampermonkey脚本，用于为视频播放提供良好的观看体验和字幕体验
 
 115 网盘播放页增强脚本（油猴 / Tampermonkey）。主要提供：画质/色彩增强、进度条预览缩略图、在线字幕（sub-dog）等能力。
