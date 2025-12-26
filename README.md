@@ -6,27 +6,7 @@
 
 ## 功能说明
 
-### 播放器增强
-
-- 清晰度选择（HLS 多码率）
-- 倍速调节、画中画、全屏
-- 音轨切换（存在多音轨时）
-
-### 画质/色彩增强
-
-在播放器控制栏中提供“颜色调整”面板，可调节：
-
-- 亮度、对比度、高光、阴影、饱和度、色温、色调
-- 锐化、美白强度、肤色范围
-- 禁用 HDR（可选）
-
-### 进度条缩略图预览
-
-- 鼠标悬停进度条显示预览缩略图
-- 点击缩略图可跳转到对应时间点
-- 支持自动缓冲预览图、设置采样间隔（30/60/120 秒；刷新后生效）
-
-### 在线字幕（字幕组）
+### 在线字幕（sub-dog）
 
 在播放器控制栏提供“字幕组(C)”入口（支持快捷键 `C`），支持：
 
@@ -36,9 +16,19 @@
 - 卡密充值：兑换后解锁更多付费字幕
 - 字幕来源展示：
   - `sub-dog`：后端字幕服务
-  - `Built-in`：115 内置字幕
   - `115网盘`：来自 115 网盘的字幕文件
 - 记住每个视频的字幕选择偏好（下次打开自动恢复）
+
+### 播放器增强
+
+- 🎨 `Ultra` 画质
+- 👁 视频缩略图
+- 🤖 在线外挂字幕
+- 🎉 支持一键唤起 [IINA](https://iina.io/) 播放
+- 🖼 画中画
+- ⌚ 播放列表展示
+- ⌨️ 快捷键
+- 🎨 视频调色
 
 ### 网盘文件列表增强（首页/文件列表）
 
@@ -64,22 +54,23 @@
    - 可点击“前往购买卡密”购买后，在弹窗内输入卡密兑换
    - 也可点击“前往字幕狗”打开字幕站：`https://player.sub-dog.top/`
 
-### 3) 使用缩略图预览
+## 使用安装
 
-- 将鼠标移动到进度条上方即可显示缩略图预览
-- 点击缩略图可直接跳转
-- 通过“设置”→“预览图”可调整采样间隔与自动缓冲
+1. 选择浏览器 `Chrome 130+` 或 `115Browser 35+`。
 
-## 安装（油猴 / Tampermonkey）
+2. 安装 [Tampermonkey v5.3.3+](https://www.tampermonkey.net/)。
 
-1. 安装浏览器扩展 Tampermonkey
-   - Chrome/Edge：在扩展商店搜索并安装 “Tampermonkey”
-2. 打开 Tampermonkey 管理面板（Dashboard）
-3. 安装脚本
-   - 推荐：在管理面板中选择“实用工具（Utilities）”→ “从文件导入（Import from file）”，选择本项目的 `dist/115master.user.js`
-   - 或者：将 `dist/115master.user.js` 内容复制到 Tampermonkey 的“添加新脚本”中保存
-4. 确认脚本已启用，并在 Tampermonkey 中能看到 `115Master`
-5. 打开 115 网盘页面，刷新后脚本自动生效
+3. 开启 [浏览器扩展开发者模式](https://www.tampermonkey.net/faq.php#Q209)。
+
+4. 点击 [115master.user.js](https://github.com/cbingb666/115master/releases/latest/download/115master.user.js) 安装 【115Master】脚本。
+
+5. 在油猴面板勾选启动 【115Master】脚本并刷新 115 主页开始使用。
+
+6. 安装完成后如果没有看到文件列表中有【master播放】的按钮，请检查有没有其他脚本导致冲突或重启浏览器。
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/189ac578-0592-43bd-ab75-b62cbe6f5170" />
+
+👆上面一通操作后，还是无法使用的话请提交 [Issues](https://github.com/cbingb666/115master/issues)。
 
 ## 常见问题
 
