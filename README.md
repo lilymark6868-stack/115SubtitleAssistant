@@ -1,11 +1,7 @@
 # 115CloudDriveSubtitleTools
 115CloudDriveSubtitleTools一个115网盘的Tampermonkey脚本，用于为视频播放提供良好的观看体验和字幕体验
-# 115Master
 
-115 网盘播放页增强脚本（油猴 / Tampermonkey）。主要提供：画质/色彩增强、进度条预览缩略图、在线字幕（字幕组）等能力。
-
-- 版本：`1.6.1`
-- 项目主页：`https://github.com/cbingb666/115master`
+115 网盘播放页增强脚本（油猴 / Tampermonkey）。主要提供：画质/色彩增强、进度条预览缩略图、在线字幕（sub-dog）等能力。
 
 ## 功能说明
 
@@ -49,17 +45,6 @@
 - 点击/双击视频文件名：使用 `master` 播放页打开
 - 中键点击文件项：用 115 原生播放页打开
 
-## 安装（油猴 / Tampermonkey）
-
-1. 安装浏览器扩展 Tampermonkey
-   - Chrome/Edge：在扩展商店搜索并安装 “Tampermonkey”
-2. 打开 Tampermonkey 管理面板（Dashboard）
-3. 安装脚本
-   - 推荐：在管理面板中选择“实用工具（Utilities）”→ “从文件导入（Import from file）”，选择本项目的 `dist/115master.user.js`
-   - 或者：将 `dist/115master.user.js` 内容复制到 Tampermonkey 的“添加新脚本”中保存
-4. 确认脚本已启用，并在 Tampermonkey 中能看到 `115Master`
-5. 打开 115 网盘页面，刷新后脚本自动生效
-
 ## 脚本使用介绍
 
 ### 1) 进入播放页
@@ -84,25 +69,16 @@
 - 点击缩略图可直接跳转
 - 通过“设置”→“预览图”可调整采样间隔与自动缓冲
 
-### 4) 常用快捷键
+## 安装（油猴 / Tampermonkey）
 
-- `Space`：播放/暂停
-- `←` / `A`：快退 5 秒
-- `→` / `D`：快进 5 秒（按住可触发长按快进）
-- `↑` / `W`：播放速度增大
-- `↓` / `S`：播放速度减小
-- `0` - `9`：跳转到 0% - 90% 播放进度
-- `-` / `=`：音量减小 / 增大
-- `M`：静音/取消静音（部分场景也用于恢复挂起播放）
-- `C`：显示/隐藏字幕
-- `F`：全屏
-- `P`：画中画
-- `B`：显示/隐藏播放列表侧栏
-- `[` / `L`：向左旋转
-- `]` / `R`：向右旋转
-- `\`：重置旋转
-- `H`：水平翻转
-- `J`：垂直翻转
+1. 安装浏览器扩展 Tampermonkey
+   - Chrome/Edge：在扩展商店搜索并安装 “Tampermonkey”
+2. 打开 Tampermonkey 管理面板（Dashboard）
+3. 安装脚本
+   - 推荐：在管理面板中选择“实用工具（Utilities）”→ “从文件导入（Import from file）”，选择本项目的 `dist/115master.user.js`
+   - 或者：将 `dist/115master.user.js` 内容复制到 Tampermonkey 的“添加新脚本”中保存
+4. 确认脚本已启用，并在 Tampermonkey 中能看到 `115Master`
+5. 打开 115 网盘页面，刷新后脚本自动生效
 
 ## 常见问题
 
