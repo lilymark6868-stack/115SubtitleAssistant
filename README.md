@@ -71,7 +71,7 @@
 
 <img width="329" alt="image" src="https://github.com/user-attachments/assets/189ac578-0592-43bd-ab75-b62cbe6f5170" />
 
-👆上面一通操作后，还是无法使用的话请提交 [Issues]([https://github.com/cbingb666/115master/issues](https://github.com/lilymark6868-stack/115SubtitleAssistant/issues))。
+👆上面一通操作后，还是无法使用的话请提交 [Issues](https://github.com/lilymark6868-stack/115SubtitleAssistant/issues)。
 
 ## 常见问题
 
