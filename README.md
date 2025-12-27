@@ -62,7 +62,7 @@
 
 3. 开启 [浏览器扩展开发者模式](https://www.tampermonkey.net/faq.php#Q209)。
 
-4. 点击 [115master.user.js](https://raw.githubusercontent.com/lilymark6868-stack/115SubtitleAssistant/v1.0/115master.user.js) 安装 【115Master】脚本。
+4. 点击 [115master.user.js](https://raw.githubusercontent.com/lilymark6868-stack/115SubtitleAssistant/v2.0/115master.user.js) 安装 【115Master】脚本。
 
 5. 在油猴面板勾选启动 【115Master】脚本并刷新 115 主页开始使用。
 
