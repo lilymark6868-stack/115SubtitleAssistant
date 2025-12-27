@@ -2,16 +2,16 @@
 // @name         115Master
 // @namespace    115Master
 // @version      1.6.1
-// @author       cbingb666
+// @author       lilymark6868-stack
 // @description  115网盘魔法优化: 画质增强 | 视频缩略图 | 在线字幕
 // @license      MIT
 // @icon         https://115.com/favicon.ico
-// @homepage     https://github.com/cbingb666/115master
-// @homepageURL  https://github.com/cbingb666/115master
-// @source       https://github.com/cbingb666/115master.git
-// @supportURL   https://github.com/cbingb666/115master/issues
-// @downloadURL  https://github.com/cbingb666/115master/releases/latest/download/115master.user.js
-// @updateURL    https://github.com/cbingb666/115master/releases/latest/download/115master.meta.js
+// @homepage     https://github.com/lilymark6868-stack/115SubtitleAssistant
+// @homepageURL  https://github.com/lilymark6868-stack/115SubtitleAssistant
+// @source       https://github.com/lilymark6868-stack/115SubtitleAssistant.git
+// @supportURL   https://github.com/lilymark6868-stack/115SubtitleAssistant/issues
+// @downloadURL  https://raw.githubusercontent.com/lilymark6868-stack/115SubtitleAssistant/v1.0/115master.user.js
+// @updateURL    https://raw.githubusercontent.com/lilymark6868-stack/115SubtitleAssistant/v1.0/115master.meta.js
 // @include      https://115.com/?ct*
 // @include      https://115.com/web/lixian/master/video/*
 // @include      https://115.com/web/lixian/master/magnet/*
